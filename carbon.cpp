@@ -6,7 +6,7 @@
 
 using namespace std;
 
-carbon::carbon(int number) :total_c_atom(number>1?number:10){
+carbon::carbon(int number) :total_c_atom(number>1 ? number : 10){
 	int count=total_c_atom;
 	c_chain=total_c_atom;
 	c_atom *temp;
